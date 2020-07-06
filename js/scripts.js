@@ -18,15 +18,15 @@ switch (name.toLocaleLowerCase()) {
 }
 var myAge = prompt('What is my age');
 switch (myAge) {
-    case myAge > '25':
+    case myAge > 25:
         alert("NO less than this");
         console.log("NO less than 26");
         break;
-    case myAge < '25':
+    case myAge < 25:
         alert('Thats wrong more than 24');
         console.log('Thats wrong more than 24');
         break;
-    case myAge == '25':
+    case myAge === '25':
         alert('Thank You thats write');
         console.log("Thank You thats write");
         break;
@@ -36,6 +36,7 @@ switch (myAge) {
 }
 var jordan = confirm('Are you from jordan?')
 var study = confirm('Are you an Engineer?')
+
 
 
 document.write('<h3>' + "What you answerd" + '</h3>');
